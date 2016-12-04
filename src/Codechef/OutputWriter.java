@@ -6,7 +6,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.io.Writer;
 
-class OutputWriter {
+public class OutputWriter {
 	private final PrintWriter writer;
  
 	public OutputWriter(OutputStream outputStream) {
